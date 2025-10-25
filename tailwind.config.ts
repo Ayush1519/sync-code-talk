@@ -47,15 +47,23 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        editor: {
+          bg: "hsl(var(--editor-bg))",
+          panel: "hsl(var(--editor-panel))",
+        },
+        console: {
+          bg: "hsl(var(--console-bg))",
+          text: "hsl(var(--console-text))",
+        },
+        chat: {
+          bg: "hsl(var(--chat-bg))",
+          header: "hsl(var(--chat-header))",
+        },
+        message: {
+          sent: "hsl(var(--message-sent))",
+          received: "hsl(var(--message-received))",
+          "text-sent": "hsl(var(--message-text-sent))",
+          "text-received": "hsl(var(--message-text-received))",
         },
       },
       borderRadius: {
